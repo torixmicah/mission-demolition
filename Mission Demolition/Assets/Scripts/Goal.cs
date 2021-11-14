@@ -19,6 +19,7 @@ public class Goal : MonoBehaviour
             Color c = GetComponent<Renderer>().material.color;
             c.a = 1;
             GetComponent<Renderer>().material.color = c;
+            ScoreSystem.S.totalScore += 200;
 
         }
     }
